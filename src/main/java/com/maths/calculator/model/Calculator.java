@@ -1,47 +1,31 @@
 package com.maths.calculator.model;
 
-
+/**
+ * This is an entity class
+ *
+ * represent the attributes of request body
+ */
 
 public class Calculator {
 
 	private int x;
-	
-	
+
 	private int y;
-	
-	 /**
-	   * Gets first name.
-	   *
-	   * @return the first name
-	   */
-	  public int getValueX() {
-	        return x;
-	    }
 
-	  /**
-	   * Sets first name.
-	   *
-	   * @param firstName the first name
-	   */
-	  public void setValueX(int x) {
-	        this.x = x;
-	    }
-	  
-	  /**
-	   * Gets first name.
-	   *
-	   * @return the first name
-	   */
-	  public int getValueY() {
-	        return y;
-	    }
+	public int getX() {
+		return x;
+	}
 
-	  /**
-	   * Sets first name.
-	   *
-	   * @param firstName the first name
-	   */
-	  public void setValueY(int y) {
-	        this.y = y;
-	    }
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
 }
